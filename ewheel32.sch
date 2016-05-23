@@ -7830,9 +7830,9 @@ charge current</text>
 <attribute name="VALUE" x="342.9" y="185.42" size="2.1844" layer="96"/>
 </instance>
 <instance part="X3" gate="G$1" x="17.78" y="226.06"/>
-<instance part="P+1" gate="1" x="38.1" y="251.46"/>
+<instance part="P+1" gate="1" x="27.94" y="251.46"/>
 <instance part="P+3" gate="1" x="203.2" y="233.68"/>
-<instance part="GND2" gate="1" x="30.48" y="213.36"/>
+<instance part="GND2" gate="1" x="27.94" y="213.36"/>
 <instance part="GND4" gate="1" x="93.98" y="203.2"/>
 <instance part="GND6" gate="1" x="144.78" y="35.56"/>
 <instance part="GND7" gate="1" x="152.4" y="86.36"/>
@@ -7932,7 +7932,7 @@ charge current</text>
 <instance part="C23" gate="G$1" x="48.26" y="99.06"/>
 <instance part="GND49" gate="1" x="48.26" y="88.9"/>
 <instance part="D3" gate="G$1" x="43.18" y="111.76" rot="R270"/>
-<instance part="D4" gate="G$1" x="30.48" y="241.3" rot="R270"/>
+<instance part="D4" gate="G$1" x="35.56" y="241.3" rot="MR270"/>
 <instance part="C24" gate="G$1" x="55.88" y="142.24"/>
 <instance part="GND50" gate="1" x="55.88" y="132.08"/>
 <instance part="C25" gate="G$1" x="111.76" y="45.72"/>
@@ -7962,7 +7962,7 @@ charge current</text>
 <instance part="R59" gate="G$1" x="101.6" y="241.3" rot="R180"/>
 <instance part="R60" gate="G$1" x="116.84" y="241.3"/>
 <instance part="GND55" gate="1" x="124.46" y="236.22"/>
-<instance part="P+6" gate="1" x="30.48" y="251.46"/>
+<instance part="P+6" gate="1" x="35.56" y="251.46"/>
 </instances>
 <busses>
 </busses>
@@ -7986,8 +7986,8 @@ charge current</text>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="223.52" x2="30.48" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="223.52" x2="30.48" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="223.52" x2="27.94" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="223.52" x2="27.94" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -8406,9 +8406,13 @@ charge current</text>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="V+"/>
-<wire x1="38.1" y1="248.92" x2="38.1" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="248.92" x2="27.94" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="CC"/>
-<wire x1="33.02" y1="241.3" x2="38.1" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="241.3" x2="27.94" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="X3" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="226.06" x2="27.94" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="226.06" x2="27.94" y2="241.3" width="0.1524" layer="91"/>
+<junction x="27.94" y="241.3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VREGIN"/>
@@ -8491,7 +8495,7 @@ charge current</text>
 <segment>
 <pinref part="D4" gate="G$1" pin="A1"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="30.48" y1="246.38" x2="30.48" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="246.38" x2="35.56" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C-SDA" class="0">
@@ -8707,8 +8711,8 @@ charge current</text>
 <pinref part="D2" gate="G$1" pin="K2"/>
 <wire x1="38.1" y1="223.52" x2="35.56" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="223.52" x2="35.56" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="228.6" x2="25.4" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="K1"/>
+<wire x1="35.56" y1="228.6" x2="25.4" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="223.52" x2="50.8" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="223.52" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="228.6" x2="35.56" y2="228.6" width="0.1524" layer="91"/>
@@ -8716,6 +8720,9 @@ charge current</text>
 <wire x1="55.88" y1="228.6" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
 <junction x="50.8" y="228.6"/>
 <label x="53.34" y="228.6" size="1.778" layer="95"/>
+<pinref part="D4" gate="G$1" pin="A2"/>
+<wire x1="35.56" y1="236.22" x2="35.56" y2="228.6" width="0.1524" layer="91"/>
+<junction x="35.56" y="228.6"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="VBAT"/>
@@ -8945,14 +8952,6 @@ charge current</text>
 <wire x1="48.26" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
 <junction x="48.26" y="111.76"/>
 <label x="50.8" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="D4" gate="G$1" pin="A2"/>
-<wire x1="30.48" y1="236.22" x2="30.48" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="X3" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="226.06" x2="25.4" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI-OE" class="0">
@@ -11949,44 +11948,12 @@ charge current</text>
 <approved hash="104,1,157.48,101.6,U1,VSSA,GND,,,"/>
 <approved hash="104,1,157.48,99.06,U1,VSS_2,GND,,,"/>
 <approved hash="104,1,157.48,96.52,U1,VSS,GND,,,"/>
-<approved hash="104,2,137.16,243.84,L1,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,228.6,LED2,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,213.36,LED3,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,198.12,LED4,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,182.88,LED5,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,167.64,LED6,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,152.4,LED7,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,137.16,LED8,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,121.92,LED9,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,106.68,LED10,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,91.44,LED11,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,76.2,LED12,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,60.96,LED13,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,45.72,LED14,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,30.48,LED15,ANODE,V+,,,"/>
-<approved hash="104,2,137.16,15.24,LED16,ANODE,V+,,,"/>
 <approved hash="104,2,20.32,243.84,U6,VCC,V+,,,"/>
 <approved hash="104,2,20.32,203.2,U7,VCC,V+,,,"/>
 <approved hash="104,2,20.32,162.56,U8,VCC,V+,,,"/>
 <approved hash="104,2,20.32,121.92,U9,VCC,V+,,,"/>
 <approved hash="104,2,20.32,81.28,U10,VCC,V+,,,"/>
 <approved hash="104,2,20.32,40.64,U11,VCC,V+,,,"/>
-<approved hash="104,2,279.4,243.84,LED17,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,228.6,LED18,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,213.36,LED19,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,198.12,LED20,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,182.88,LED21,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,167.64,LED22,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,152.4,LED23,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,137.16,LED24,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,121.92,LED25,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,106.68,LED26,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,91.44,LED27,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,76.2,LED28,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,60.96,LED29,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,45.72,LED30,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,30.48,LED31,ANODE,V+,,,"/>
-<approved hash="104,2,279.4,15.24,LED32,ANODE,V+,,,"/>
 <approved hash="104,2,162.56,243.84,U12,VCC,V+,,,"/>
 <approved hash="104,2,162.56,203.2,U13,VCC,V+,,,"/>
 <approved hash="104,2,162.56,162.56,U14,VCC,V+,,,"/>
@@ -11995,7 +11962,6 @@ charge current</text>
 <approved hash="104,2,162.56,40.64,U17,VCC,V+,,,"/>
 <approved hash="104,1,218.44,58.42,U3,VDD,+3V3,,,"/>
 <approved hash="104,1,218.44,55.88,U3,VDDIO,+3V3,,,"/>
-<approved hash="104,1,55.88,35.56,IC1,VCC,HALL-VCC,,,"/>
 <approved hash="208,1,144.78,63.5,+3V3,sup,,,,"/>
 <approved hash="208,1,327.66,190.5,+3V3,sup,,,,"/>
 <approved hash="208,1,340.36,96.52,+3V3,sup,,,,"/>
@@ -12011,30 +11977,7 @@ charge current</text>
 <approved hash="208,1,20.32,60.96,+3V3,sup,,,,"/>
 <approved hash="208,1,215.9,63.5,+3V3,sup,,,,"/>
 <approved hash="208,1,76.2,50.8,+3V3,sup,,,,"/>
-<approved hash="106,1,228.6,116.84,SHDN-3.3V,,,,,"/>
-<approved hash="208,1,203.2,231.14,V+,sup,,,,"/>
-<approved hash="208,1,132.08,218.44,V+,out,,,,"/>
-<approved hash="208,1,160.02,233.68,V+,sup,,,,"/>
-<approved hash="208,1,53.34,248.92,V+,sup,,,,"/>
-<approved hash="208,1,101.6,187.96,V+,sup,,,,"/>
-<approved hash="208,1,139.7,160.02,V+,sup,,,,"/>
-<approved hash="208,2,139.7,248.92,V+,sup,,,,"/>
-<approved hash="208,2,281.94,248.92,V+,sup,,,,"/>
-<approved hash="208,2,17.78,246.38,V+,sup,,,,"/>
-<approved hash="208,2,17.78,205.74,V+,sup,,,,"/>
-<approved hash="208,2,17.78,165.1,V+,sup,,,,"/>
-<approved hash="208,2,17.78,124.46,V+,sup,,,,"/>
-<approved hash="208,2,17.78,83.82,V+,sup,,,,"/>
-<approved hash="208,2,17.78,43.18,V+,sup,,,,"/>
-<approved hash="208,2,160.02,205.74,V+,sup,,,,"/>
-<approved hash="208,2,160.02,165.1,V+,sup,,,,"/>
-<approved hash="208,2,160.02,124.46,V+,sup,,,,"/>
-<approved hash="208,2,160.02,83.82,V+,sup,,,,"/>
-<approved hash="208,2,160.02,43.18,V+,sup,,,,"/>
-<approved hash="208,2,160.02,246.38,V+,sup,,,,"/>
-<approved hash="111,1,55.88,33.02,HALL-SENSOR,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
-<approved hash="113,1,25.3577,227.525,X3,,,,,"/>
 <approved hash="113,2,193.571,130.071,FRAME2,,,,,"/>
 </errors>
 </schematic>
