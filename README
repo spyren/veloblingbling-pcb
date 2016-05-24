@@ -1,0 +1,25 @@
+Electronic Design for the Velo Bling-Bling Project
+**************************************************
+
+http://veloblingbling.ch
+
+LED lights for bicycle wheels.
+16 multi color LEDs on each side (PCB top- and bottom side).
+There are two windows (upper and lower) on each side for display dynamic
+information like speed, trip time, trip distance, etc. or static information
+like strings and images.
+
+The Printed Circuit Board (PCB) is free hardware.
+The PCB is a multi-layer (4 layer) 160 x 30.5 x 1.6 mm FR4 board.
+The firmware for the MK22DX256VLF5 MCU is also on GitHub:
+https://github.com/spyren/veloblingbling-mcu
+
+There is also an optional Bluetooth Low Energy (Smart) subsystem on board.
+It is a LAIRD BL600-SA module. The Bluetooth application software is on GitHub
+too:
+https://github.com/spyren/veloblingbling-ble
+
+It is possible to mount die PCB direct onto the wheel spokes but it is better
+to use a mounting frame. This frame can be ordered from http://shapeways.com
+or you can print it by yourself on 3D printer.
+https://github.com/spyren/veloblingbling-frame
