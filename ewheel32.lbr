@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3894,6 +3894,55 @@ type V526-0, grid 2.5 mm</description>
 <rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
 <rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
 </package>
+<package name="BL652">
+<wire x1="-5" y1="-7" x2="-5" y2="7" width="0.127" layer="21"/>
+<wire x1="-5" y1="7" x2="5" y2="7" width="0.127" layer="21"/>
+<wire x1="5" y1="7" x2="5" y2="-6.99" width="0.127" layer="21"/>
+<wire x1="5" y1="-7" x2="-5" y2="-7" width="0.127" layer="21"/>
+<rectangle x1="-5" y1="2.1" x2="4.2" y2="7" layer="39"/>
+<rectangle x1="-5" y1="2.1" x2="4.2" y2="7" layer="40"/>
+<text x="-5.1" y="-9.24" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.05" y="-11.19" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="39" x="-4.9" y="1.8" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="38" x="-4.9" y="1.05" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="37" x="-4.9" y="0.3" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="36" x="-4.9" y="-0.45" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="35" x="-4.9" y="-1.2" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="34" x="-4.9" y="-1.95" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="33" x="-4.9" y="-2.7" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="32" x="-4.9" y="-3.45" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="31" x="-4.9" y="-4.2" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="30" x="-4.9" y="-4.95" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="29" x="-4.9" y="-5.7" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="28" x="-4.9" y="-6.45" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="27" x="-3.75" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="26" x="-3" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="25" x="-2.25" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="24" x="-1.5" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="23" x="-0.75" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="22" x="0" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="21" x="0.75" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="20" x="1.5" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="19" x="2.25" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="18" x="3" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="17" x="3.75" y="-6.9" dx="0.5" dy="1.2" layer="1"/>
+<smd name="16" x="4.9" y="-6.45" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="15" x="4.9" y="-5.7" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="14" x="4.9" y="-4.95" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="13" x="4.9" y="-4.2" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="12" x="4.9" y="-3.45" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="11" x="4.9" y="-2.7" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="10" x="4.9" y="-1.95" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="9" x="4.9" y="-1.2" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="8" x="4.9" y="-0.45" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="7" x="4.9" y="0.3" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="6" x="4.9" y="1.05" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="5" x="4.9" y="1.8" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="4" x="4.9" y="2.55" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="3" x="4.9" y="3.3" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="2" x="4.9" y="4.05" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+<smd name="1" x="4.9" y="4.8" dx="0.5" dy="1.2" layer="1" rot="R270"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BL600">
@@ -4390,6 +4439,53 @@ type V526-0, grid 2.5 mm</description>
 <rectangle x1="-1.016" y1="-3.556" x2="1.016" y2="3.556" layer="94"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+</symbol>
+<symbol name="BL652">
+<wire x1="-20.32" y1="27.94" x2="-20.32" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-27.94" x2="20.32" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-27.94" x2="20.32" y2="27.94" width="0.254" layer="94"/>
+<wire x1="20.32" y1="27.94" x2="-20.32" y2="27.94" width="0.254" layer="94"/>
+<pin name="AIN5/SIO_29" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="SPI_CLK/SIO_25" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="GND" x="-5.08" y="-33.02" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@1" x="-2.54" y="-33.02" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@2" x="0" y="-33.02" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@3" x="2.54" y="-33.02" length="middle" direction="pwr" rot="R90"/>
+<pin name="SIO_16" x="-25.4" y="-15.24" length="middle"/>
+<pin name="SIO_15" x="-25.4" y="-12.7" length="middle"/>
+<pin name="SPI_MISO/SIO_24" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="SPI_MOSI/SIO_23" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="SWDCLK" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="SIO_00/XL1" x="-25.4" y="25.4" length="middle"/>
+<pin name="SIO_01/XL2" x="-25.4" y="22.86" length="middle"/>
+<pin name="SIO_02/AIN0" x="-25.4" y="20.32" length="middle"/>
+<pin name="SIO_03/AIN1" x="-25.4" y="17.78" length="middle"/>
+<pin name="SIO_04/AIN2" x="-25.4" y="15.24" length="middle"/>
+<pin name="SIO_05/AIN3/RTS" x="-25.4" y="12.7" length="middle"/>
+<pin name="SIO_06/TX" x="-25.4" y="10.16" length="middle"/>
+<pin name="SIO_07/CTS" x="-25.4" y="7.62" length="middle"/>
+<pin name="SIO_08/RX" x="-25.4" y="5.08" length="middle"/>
+<pin name="SIO_09/NFC1" x="-25.4" y="2.54" length="middle"/>
+<pin name="SIO_10/NFC2" x="-25.4" y="0" length="middle"/>
+<pin name="SIO_11" x="-25.4" y="-2.54" length="middle"/>
+<pin name="SIO_12" x="-25.4" y="-5.08" length="middle"/>
+<pin name="SIO_13/AUTORUN" x="-25.4" y="-7.62" length="middle"/>
+<pin name="SIO_14" x="-25.4" y="-10.16" length="middle"/>
+<pin name="SIO_17" x="25.4" y="25.4" length="middle" rot="R180"/>
+<pin name="SIO_18" x="25.4" y="22.86" length="middle" rot="R180"/>
+<pin name="SIO_19" x="25.4" y="20.32" length="middle" rot="R180"/>
+<pin name="SIO_20" x="25.4" y="17.78" length="middle" rot="R180"/>
+<pin name="RESET/SIO_21" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="I2C_SDA/SIO_26" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="I2C_CLK/SIO_27" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="AIN4/SIO_28" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="AIN6/SIO_30" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="AIN7/SIO_31" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="SIO_22" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="VCC" x="0" y="33.02" length="middle" direction="pwr" rot="R270"/>
+<text x="12.7" y="30.48" size="1.27" layer="95">&gt;NAME</text>
+<text x="12.7" y="-30.48" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="SWDIO" x="25.4" y="-15.24" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6364,6 +6460,60 @@ DIN A3, landscape with location and doc. field</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LAIRD_BL652">
+<description>Bluetooth Low Energy Module</description>
+<gates>
+<gate name="G$1" symbol="BL652" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BL652">
+<connects>
+<connect gate="G$1" pin="AIN4/SIO_28" pad="35"/>
+<connect gate="G$1" pin="AIN5/SIO_29" pad="34"/>
+<connect gate="G$1" pin="AIN6/SIO_30" pad="33"/>
+<connect gate="G$1" pin="AIN7/SIO_31" pad="32"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="16"/>
+<connect gate="G$1" pin="GND@2" pad="27"/>
+<connect gate="G$1" pin="GND@3" pad="39"/>
+<connect gate="G$1" pin="I2C_CLK/SIO_27" pad="36"/>
+<connect gate="G$1" pin="I2C_SDA/SIO_26" pad="37"/>
+<connect gate="G$1" pin="RESET/SIO_21" pad="7"/>
+<connect gate="G$1" pin="SIO_00/XL1" pad="25"/>
+<connect gate="G$1" pin="SIO_01/XL2" pad="24"/>
+<connect gate="G$1" pin="SIO_02/AIN0" pad="23"/>
+<connect gate="G$1" pin="SIO_03/AIN1" pad="22"/>
+<connect gate="G$1" pin="SIO_04/AIN2" pad="21"/>
+<connect gate="G$1" pin="SIO_05/AIN3/RTS" pad="20"/>
+<connect gate="G$1" pin="SIO_06/TX" pad="19"/>
+<connect gate="G$1" pin="SIO_07/CTS" pad="18"/>
+<connect gate="G$1" pin="SIO_08/RX" pad="17"/>
+<connect gate="G$1" pin="SIO_09/NFC1" pad="15"/>
+<connect gate="G$1" pin="SIO_10/NFC2" pad="14"/>
+<connect gate="G$1" pin="SIO_11" pad="13"/>
+<connect gate="G$1" pin="SIO_12" pad="12"/>
+<connect gate="G$1" pin="SIO_13/AUTORUN" pad="28"/>
+<connect gate="G$1" pin="SIO_14" pad="11"/>
+<connect gate="G$1" pin="SIO_15" pad="29"/>
+<connect gate="G$1" pin="SIO_16" pad="10"/>
+<connect gate="G$1" pin="SIO_17" pad="30"/>
+<connect gate="G$1" pin="SIO_18" pad="9"/>
+<connect gate="G$1" pin="SIO_19" pad="31"/>
+<connect gate="G$1" pin="SIO_20" pad="8"/>
+<connect gate="G$1" pin="SIO_22" pad="4"/>
+<connect gate="G$1" pin="SPI_CLK/SIO_25" pad="38"/>
+<connect gate="G$1" pin="SPI_MISO/SIO_24" pad="2"/>
+<connect gate="G$1" pin="SPI_MOSI/SIO_23" pad="3"/>
+<connect gate="G$1" pin="SWDCLK" pad="6"/>
+<connect gate="G$1" pin="SWDIO" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="26"/>
 </connects>
 <technologies>
 <technology name=""/>
